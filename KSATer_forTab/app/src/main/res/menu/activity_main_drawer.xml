@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_memo"
+            android:icon="@drawable/ic_menu_memo"
+            android:title="@string/menu_memo" />
+        <item
+            android:id="@+id/nav_stopwatch"
+            android:icon="@drawable/ic_menu_stopwatch"
+            android:title="@string/menu_stopwatch" />
+        <item
+            android:id="@+id/nav_timer"
+            android:icon="@drawable/ic_menu_timer"
+            android:title="@string/menu_timer" />
+        <item
+            android:id="@+id/nav_todolist"
+            android:icon="@drawable/ic_menu_todolist"
+            android:title="@string/menu_todolist" />
+        <item
+            android:id="@+id/nav_sites"
+            android:icon="@drawable/ic_menu_sites"
+            android:title="@string/menu_sites" />
+    </group>
+</menu>

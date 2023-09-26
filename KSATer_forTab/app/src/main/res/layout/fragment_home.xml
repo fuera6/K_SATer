@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment"
+    android:background="#00bbff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/study"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/saying"
+        android:layout_width="720dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:textColor="#aaaaaa"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/circle"
+        android:layout_marginTop="170dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="215dp"
+        android:layout_gravity="center_horizontal"
+        android:text="to do progress"
+        android:textSize="15dp" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="123dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="190dp"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="#0000ff" />
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:layout_gravity="center_horizontal"
+        android:text="0%"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/firecracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/firecracker"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="210dp"
+        android:text="quick memo"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_quicknote"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="180dp" />
+
+    <EditText
+        android:id="@+id/quicknote"
+        android:layout_width="680dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="370dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#00eeff"
+        android:hint="내용을 입력하세요"/>
+
+    <Button
+        android:id="@+id/btn_quick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_gravity="center_horizontal"
+        android:text="저장" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="made by KSJ"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="310dp"
+        android:textStyle="italic" />
+
+</FrameLayout>
